@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
     }
 
     public void clickMe(View view){
-        Toast.makeText(this, "Welcome in FootBall Quiz!",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Best Game Ever!",Toast.LENGTH_LONG).show();
     }
 
     @Override
