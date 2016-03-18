@@ -1,7 +1,6 @@
 package com.niandrasoft.footballquiz;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +19,7 @@ public class MainActivity extends Activity {
     }
 
     public void clickMe(View view){
-        startActivity(new Intent(MainActivity.this, MainMenuActiviry.class));
+        Toast.makeText(this, "Best Game!",Toast.LENGTH_LONG).show();
     }
 
 
