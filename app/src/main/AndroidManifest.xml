@@ -21,8 +21,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
-        <activity android:name=".AboutGameAvtivity" />
-        <activity android:name=".MainMenuActiviry" />
+        <activity android:name=".AboutGameActivity" />
+        <activity android:name=".MainMenuActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".NewGameActivity" />
         <activity android:name=".RatingsActivity" />
@@ -32,7 +32,7 @@
         <service
             android:name=".SoundService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"/>
     </application>
 
 </manifest>

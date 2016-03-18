@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class AboutGameAvtivity extends Activity {
+public class AboutGameActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_game);
+        setContentView(R.layout.activity_about_game_activity);
     }
 
     public void onClickBackToHelp(View view) {

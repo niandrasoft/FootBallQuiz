@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainMenuActiviry extends Activity {
+public class MainMenuActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainmenu);
+        setContentView(R.layout.activity_main_menu_activity);
 
         //set the BUTTON
         Button btnNewGame = (Button) findViewById(R.id.btnNewGame);
