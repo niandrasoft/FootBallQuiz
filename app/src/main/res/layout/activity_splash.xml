@@ -4,14 +4,6 @@
     tools:context="com.niandrasoft.footballquiz.SplashActivity">
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/splash"
-        android:scaleType="centerCrop" />
     <RelativeLayout
         android:id="@+id/loadingPanel"
         android:layout_width="match_parent"
@@ -21,6 +13,17 @@
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:indeterminate="true" />
+            android:indeterminate="true"
+            android:id="@+id/progressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_above="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="46dp" />
     </RelativeLayout>
 </RelativeLayout>
