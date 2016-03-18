@@ -32,7 +32,11 @@
         <service
             android:name=".SoundService"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
+
+        <activity android:name=".BasicActivity" />
+        <activity android:name=".MediumActivity" />
+        <activity android:name=".AdvancedActivity"/>
     </application>
 
 </manifest>

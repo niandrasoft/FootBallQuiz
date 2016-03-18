@@ -21,4 +21,38 @@
         android:textColor="#E3F2FD"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="75dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="BASIC"
+            android:id="@+id/basicButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="onClickBasic" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="MEDIUM"
+            android:id="@+id/mediumButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="onClickMedium" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ADVANCED"
+            android:id="@+id/advancedButton"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:onClick="onClickAdvanced" />
+    </GridLayout>
 </RelativeLayout>

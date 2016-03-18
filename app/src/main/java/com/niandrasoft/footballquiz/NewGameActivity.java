@@ -14,8 +14,24 @@ public class NewGameActivity extends Activity {
         setContentView(R.layout.activity_new_game);
     }
 
+
+
+    public void onClickBasic(View view){
+        startActivity(new Intent(NewGameActivity.this, BasicActivity.class));
+    }
+
+    public void onClickMedium(View view){
+        startActivity(new Intent(NewGameActivity.this, MediumActivity.class));
+    }
+
+    public void onClickAdvanced(View view){
+        startActivity(new Intent(NewGameActivity.this, AdvancedActivity.class));
+    }
+
     public void onClickBack(View view) {
         Intent in = new Intent(this, MainMenuActivity.class);
         startActivity(in);
     }
+
+
 }
