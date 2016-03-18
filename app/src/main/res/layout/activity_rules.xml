@@ -10,6 +10,18 @@
     tools:context="com.niandrasoft.footballquiz.RulesActivity">
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/btnBackToHelp"
+        android:onClick="onClickBackToHelp"
+        android:background="#5C6BC0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E3F2FD"
+        android:textSize="25dp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
