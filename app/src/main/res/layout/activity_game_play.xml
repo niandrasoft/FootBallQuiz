@@ -4,11 +4,12 @@
     tools:context="com.niandrasoft.footballquiz.GamePlayActivity">
 
     <GridLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:rowCount="1"
         android:columnCount="10"
-        android:id="@+id/correctAnswersTab">
+        android:id="@+id/correctAnswersTab"
+        android:layout_alignParentRight="false">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -18,7 +19,9 @@
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +30,9 @@
             android:layout_column="1"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +41,9 @@
             android:layout_column="2"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,7 +52,9 @@
             android:layout_column="3"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,7 +63,9 @@
             android:layout_column="4"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,7 +74,9 @@
             android:layout_column="5"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,7 +85,9 @@
             android:layout_column="6"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,7 +96,9 @@
             android:layout_column="7"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,7 +107,9 @@
             android:layout_column="8"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,7 +118,9 @@
             android:layout_column="9"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:src="@drawable/ball"
+            android:scaleType="fitStart"/>
     </GridLayout>
 
     <ImageView
