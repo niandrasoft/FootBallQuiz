@@ -13,6 +13,10 @@ public class BasicActivity extends Activity {
         setContentView(R.layout.activity_basic);
     }
 
+    public void startGame(View view){
+        startActivity(new Intent(BasicActivity.this, GamePlayActivity.class));
+    }
+
     public void backToNewGame(View view){
         startActivity(new Intent(BasicActivity.this, NewGameActivity.class));
     }
