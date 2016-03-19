@@ -9,51 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.niandrasoft.footballquiz.SettingsActivity">
 
+   <GridLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:columnCount="1"
+       android:rowCount="4"
+       android:layout_marginTop="50dp">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rate this app"
-        android:id="@+id/btnRateApp"
-        android:background="#5C6BC0"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#E3F2FD"
-        android:textSize="25dp"
-        android:layout_marginTop="62dp"
-        android:layout_below="@+id/button5"
-        android:layout_alignEnd="@+id/btnMoreApps" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="More free apps"
-        android:id="@+id/btnMoreApps"
-        android:onClick="onClickMoreApps"
-        android:layout_marginBottom="111dp"
-        android:background="#5C6BC0"
-        android:layout_above="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#E3F2FD"
-        android:textSize="25dp" />
-
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        android:id="@+id/button2"
-        android:onClick="onClickBack"
-        android:background="#5C6BC0"
-        android:layout_gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#E3F2FD"
-        android:textSize="25dp" />
-
-    <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="SOUND"
         android:id="@+id/button5"
@@ -61,13 +25,59 @@
         android:textColor="#E3F2FD"
         android:textSize="25dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_row="0"
+        android:layout_column="0"/>
 
-    <CheckBox
-        android:layout_width="wrap_content"
+
+    <Button
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox"
-        android:checked="false"
+        android:text="Rate this app"
+        android:id="@+id/btnRateApp"
+        android:background="#5C6BC0"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E3F2FD"
+        android:textSize="25dp"
         android:layout_below="@+id/button5"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignEnd="@+id/btnMoreApps"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="More free apps"
+        android:id="@+id/btnMoreApps"
+        android:onClick="onClickMoreApps"
+        android:background="#5C6BC0"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E3F2FD"
+        android:textSize="25dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="20dp" />
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/button2"
+        android:onClick="onClickBack"
+        android:background="#5C6BC0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E3F2FD"
+        android:textSize="25dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginTop="200dp" />
+
+   </GridLayout>
+
 </RelativeLayout>
