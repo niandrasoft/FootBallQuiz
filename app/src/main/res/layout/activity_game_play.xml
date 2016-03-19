@@ -1,127 +1,114 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     tools:context="com.niandrasoft.footballquiz.GamePlayActivity">
 
-    <GridLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:rowCount="1"
-        android:columnCount="10"
-        android:id="@+id/correctAnswersTab"
-        android:layout_alignParentRight="false">
+        android:orientation="horizontal"
+        android:weightSum="10.0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q10"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
             android:src="@drawable/ball"
-            android:scaleType="fitStart" />
+            android:scaleType="fitCenter"
+            android:layout_gravity="fill"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q11"
-            android:layout_row="0"
-            android:layout_column="1"
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q12"
-            android:layout_row="0"
-            android:layout_column="2"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q13"
-            android:layout_row="0"
-            android:layout_column="3"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q14"
-            android:layout_row="0"
-            android:layout_column="4"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q15"
-            android:layout_row="0"
-            android:layout_column="5"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q16"
-            android:layout_row="0"
-            android:layout_column="6"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q17"
-            android:layout_row="0"
-            android:layout_column="7"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q18"
-            android:layout_row="0"
-            android:layout_column="8"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/q19"
-            android:layout_row="0"
-            android:layout_column="9"
+
             android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
+
             android:src="@drawable/ball"
-            android:scaleType="fitStart"/>
-    </GridLayout>
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
     <ImageView
         android:layout_width="fill_parent"
@@ -186,7 +173,7 @@
         android:columnCount="2"
         android:rowCount="2"
         android:id="@+id/gridLayout"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="45dp"
         android:layout_alignParentEnd="false"
         android:layout_alignParentStart="false"
         android:layout_alignParentBottom="true"
@@ -241,5 +228,15 @@
             android:background="#ffb74d" />
 
     </GridLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>
