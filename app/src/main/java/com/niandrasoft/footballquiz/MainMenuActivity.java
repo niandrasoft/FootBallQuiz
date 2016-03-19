@@ -22,8 +22,7 @@ public class MainMenuActivity extends Activity {
         Button btnMoreApps = (Button) findViewById(R.id.btnMoreApps);
         Button btnBackToHelp = (Button) findViewById(R.id.btnBackToHelp);
 
-        Intent svc = new Intent(this, SoundService.class);
-        startService(svc);
+
 
 
 
