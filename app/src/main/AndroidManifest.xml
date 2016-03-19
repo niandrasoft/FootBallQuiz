@@ -28,6 +28,10 @@
         <activity android:name=".RatingsActivity" />
         <activity android:name=".RulesActivity" />
         <activity android:name=".SettingsActivity" />
+        <activity android:name=".BasicActivity" />
+        <activity android:name=".AdvancedActivity" />
+        <activity android:name=".MediumActivity" />
+        <activity android:name=".GamePlayActivity" />
 
         <service
             android:name=".SoundService"

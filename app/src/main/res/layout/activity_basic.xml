@@ -17,4 +17,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="backToNewGame" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:text="START NEW GAME"
+        android:id="@+id/button9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff6e56"
+        android:textSize="32sp"
+        android:textColor="#fffbf9"
+        android:onClick="startGame" />
 </RelativeLayout>
