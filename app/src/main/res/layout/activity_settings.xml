@@ -62,4 +62,12 @@
         android:textSize="25dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

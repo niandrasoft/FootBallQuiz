@@ -6,7 +6,7 @@
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="125dp"
+        android:layout_height="70dp"
         android:text="GET STARTED"
         android:id="@+id/button"
         android:paddingTop="20dp"
@@ -20,7 +20,8 @@
         android:layout_width="fill_parent"
         android:layout_height="275dp"
 
-        android:layout_alignParentEnd="false">
+        android:layout_alignParentEnd="false"
+        android:id="@+id/gridLayout2">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -29,5 +30,18 @@
         android:src="@drawable/stadium"
         android:scaleType="centerCrop" />
         ></GridLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/factText"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#06f312"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
 </RelativeLayout>

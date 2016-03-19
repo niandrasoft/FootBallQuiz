@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
 
 public class MainMenuActivity extends Activity {
 
@@ -12,21 +12,6 @@ public class MainMenuActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu_activity);
-
-        //set the BUTTON
-        Button btnNewGame = (Button) findViewById(R.id.btnNewGame);
-        Button btnSettings = (Button) findViewById(R.id.btnSettings);
-        Button btnRatings = (Button) findViewById(R.id.btnRatings);
-        Button btnHelp = (Button) findViewById(R.id.btnHelp);
-        Button btnExit = (Button) findViewById(R.id.btnExit);
-        Button btnMoreApps = (Button) findViewById(R.id.btnMoreApps);
-        Button btnBackToHelp = (Button) findViewById(R.id.btnBackToHelp);
-
-
-
-
-
-
     }//end onCreate method
 
     public void onClickNewGame(View view) {
