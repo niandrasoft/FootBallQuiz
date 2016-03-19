@@ -15,6 +15,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         clickButton=(Button)findViewById(R.id.button);
+
+        Intent svc = new Intent(this, SoundService.class);
+        startService(svc);
     }
 
     public void clickMe(View view){
