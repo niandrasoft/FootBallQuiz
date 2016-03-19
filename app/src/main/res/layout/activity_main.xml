@@ -6,7 +6,7 @@
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="125dp"
         android:text="GET STARTED"
         android:id="@+id/button"
         android:paddingTop="20dp"
@@ -18,8 +18,16 @@
 
     <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="375dp"
-        android:background="@drawable/stadium"
-        android:layout_alignParentEnd="false"></GridLayout>
+        android:layout_height="275dp"
+
+        android:layout_alignParentEnd="false">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stadium"
+        android:scaleType="centerCrop" />
+        ></GridLayout>
 
 </RelativeLayout>

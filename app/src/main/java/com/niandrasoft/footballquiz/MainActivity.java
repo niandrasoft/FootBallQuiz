@@ -10,13 +10,16 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     Button clickButton;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         clickButton=(Button)findViewById(R.id.button);
 
-        Intent svc = new Intent(this, SoundService.class);
+        Intent svc = new Intent(MainActivity.this, SoundService.class);
         startService(svc);
     }
 
@@ -25,6 +28,10 @@ public class MainActivity extends Activity {
     }
 
 
-    
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Intent svc = new Intent(MainActivity.this, SoundService.class);
+        stopService(svc);
+    }
 }
