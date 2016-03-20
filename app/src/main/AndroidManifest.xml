@@ -21,17 +21,28 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
-        <activity android:name=".AboutGameActivity" />
-        <activity android:name=".MainMenuActivity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".NewGameActivity" />
-        <activity android:name=".RatingsActivity" />
-        <activity android:name=".RulesActivity" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".BasicActivity" />
-        <activity android:name=".AdvancedActivity" />
-        <activity android:name=".MediumActivity" />
-        <activity android:name=".GamePlayActivity" />
+        <activity android:name=".AboutGameActivity"
+            android:label="About The Game" />
+        <activity android:name=".MainMenuActivity"
+            android:label="Main Menu" />
+        <activity android:name=".HelpActivity"
+            android:label="Help" />
+        <activity android:name=".NewGameActivity"
+            android:label="New Game" />
+        <activity android:name=".RatingsActivity"
+            android:label="Ratings" />
+        <activity android:name=".RulesActivity"
+            android:label="Rules" />
+        <activity android:name=".SettingsActivity"
+            android:label="Settings" />
+        <activity android:name=".BasicActivity"
+            android:label="Basic" />
+        <activity android:name=".AdvancedActivity"
+            android:label="Advanced" />
+        <activity android:name=".MediumActivity"
+            android:label="Medium" />
+        <activity android:name=".GamePlayActivity"
+            android:label="Game Play" />
 
         <service
             android:name=".SoundService"

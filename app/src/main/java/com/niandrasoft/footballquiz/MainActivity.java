@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         clickButton=(Button)findViewById(R.id.button);
 
+        // STARTING SERVICE SOUND
         Intent svc = new Intent(MainActivity.this, SoundService.class);
         startService(svc);
 
