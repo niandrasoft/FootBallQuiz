@@ -9,37 +9,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.niandrasoft.footballquiz.SettingsActivity">
 
-   <GridLayout
+    <GridLayout
        android:layout_width="fill_parent"
        android:layout_height="fill_parent"
        android:columnCount="1"
        android:rowCount="5"
        android:layout_marginTop="50dp">
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="SOUND"
-        android:id="@+id/button5"
-        android:background="#5C6BC0"
-        android:textColor="#E3F2FD"
-        android:textSize="25dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_row="0"
-        android:layout_column="0"/>
 
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="160dp"
+            android:onClick="onOffMusic" />
 
-       <CheckBox
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:id="@+id/onOffSound"
-           android:layout_row="1"
-           android:layout_column="0"
-           android:checked="true"
-           android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SOUND"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="#5C6BC0"
+            android:layout_marginLeft="140dp" />
 
-       <Button
+        <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Rate this app"
@@ -48,7 +48,7 @@
         android:layout_gravity="center_horizontal"
         android:textColor="#E3F2FD"
         android:textSize="25dp"
-        android:layout_below="@+id/button5"
+        android:layout_below="@+id/soundOFF"
         android:layout_alignEnd="@+id/btnMoreApps"
         android:layout_row="2"
         android:layout_column="0"
